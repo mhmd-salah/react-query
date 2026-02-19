@@ -4,14 +4,14 @@ const RootLayout = () => {
   return (
     <>
       <header className="px-10 py-5 flex items-center justify-between border-b border-b-gray-200 mb-5">
-        <h2 className="text-blue-600 font-bold text-lg">react router</h2>
+        <h2 className="text-violet-500 capitalize font-bold text-lg">react router</h2>
         <nav>
           <menu className="flex gap-5">
             <li>
               <NavLink to={"/"}>Home</NavLink>
             </li>
             <li>
-              <NavLink to={"/products"}>Posts</NavLink>
+              <NavLink to={"/products"}>Products</NavLink>
             </li>
           </menu>
         </nav>
