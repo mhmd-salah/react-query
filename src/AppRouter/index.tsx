@@ -13,6 +13,7 @@ const queryClient = new QueryClient({
 });
 
 const AppRouter = () => {
+  console.log("hello")
   return (
     <QueryClientProvider client={queryClient}>
       <RouterProvider router={routes} />
